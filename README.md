@@ -58,6 +58,22 @@ http://localhost:3000/graphql
 $ npm run test
 ```
 
+GraphQL Test
+
+```
+query{
+  calculate(input:"")
+}
+```
+
+You can put your input as a **string**.
+
+- Example: "4-8(1+3)/5*5" // -28
+- Example: "" // Invalid input
+- Example: "   " // Invalid input
+- Example: "a-2*4" // Undefined symbol **a**
+- Example: "asd" // Undefined symbol **asd**
+
 ## CircleCI
 Implemented ✔
 
