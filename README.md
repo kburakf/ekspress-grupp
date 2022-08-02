@@ -68,7 +68,7 @@ query{
 
 You can put your input as a **string**.
 
-- Example: "4-8(1+3)/5*5" // -28
+- Example: "4-8(1+3)/5*5" // "Input: 4-8(1+3)/5*5, Result: -28"
 - Example: "" // Invalid input
 - Example: "   " // Invalid input
 - Example: "a-2*4" // Undefined symbol **a**
