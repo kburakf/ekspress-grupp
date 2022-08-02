@@ -48,6 +48,9 @@ $ npm run start:prod
 $ docker-compose up -d
 ```
 
+## URL
+http://localhost:3000/graphql
+
 ## Test
 
 ```bash
